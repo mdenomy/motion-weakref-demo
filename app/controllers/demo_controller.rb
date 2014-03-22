@@ -24,18 +24,10 @@ class DemoController < UIViewController
 
   def create_item
     @item = ToDoItem.new
-    alert = UIAlertView.new
-    alert.message = "Create item"
-    alert.addButtonWithTitle "OK"    
-    alert.show
   end
 
   def delete_item
     @item = nil
-    alert = UIAlertView.new
-    alert.message = "Delete item"
-    alert.addButtonWithTitle "OK"    
-    alert.show
   end
 
 end
