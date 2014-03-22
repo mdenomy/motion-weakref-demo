@@ -1,6 +1,7 @@
 class Notifier
 
-  def initialize
-    puts 'Notifier created'
+  def initialize(item)
+    @item = item
+    puts "Notifier initialized"
   end
 end

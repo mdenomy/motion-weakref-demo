@@ -23,10 +23,12 @@ class DemoController < UIViewController
   end
 
   def create_item
+    puts 'Creating item'
     @item = ToDoItem.new
   end
 
   def delete_item
+    puts 'Deleting item'
     @item = nil
   end
 
